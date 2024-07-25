@@ -6,11 +6,15 @@ This study integrates bio-computing with neuromorphic systems by transforming ba
 
 This project requires the data files in the following list. However due to the file size restriction of Git, the codes are available upon request.
 
-1. NormaizedBias.csv
+1. WeightMatrix.csv
+2. NormaizedBias.csv
+3. InputGenes.csv
 
 ## Weight Extraction
 
 ## Regression Analysis
+
+
 
 ## Classification Analysis
 
