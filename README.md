@@ -22,6 +22,16 @@ File Structure:
 This file contains the gene-gene interaction information extracted from the **regulondb** database.
 
 File Structure:
+|Source|Target|
+|----|--------|
+|g<sub>0</sub>| g<sub>1</sub>|
+|g<sub>1</sub>|g<sub>2</sub> |
+|...|....|...|...|...|
+|g<sub>N-n</sub>|g<sub>N</sub> |
+
+**3. WeightMatrix.csv**
+
+File Structure:
 ||g<sub>0</sub>|g<sub>1</sub>|...|g<sub>N</sub>|
 |----|-------------|-------------|-------------|---|
 |g<sub>0</sub>| w<sub>(0,0)</sub>    |w<sub>(0,1)</sub>|....|w<sub>(0,N)</sub>|
@@ -29,7 +39,6 @@ File Structure:
 |...|....|...|...|...|
 |g<sub>N</sub>| w<sub>(N,0)</sub>    |w<sub>(N,1)</sub>|...|w<sub>(N,N)</sub>|
 
-**3. WeightMatrix.csv**
 4. NormaizedBias.csv
 5. InputGenes.csv
 
