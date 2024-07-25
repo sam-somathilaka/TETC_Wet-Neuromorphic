@@ -40,7 +40,15 @@ File Structure:
 |g<sub>N</sub>| w<sub>(N,0)</sub>    |w<sub>(N,1)</sub>|...|w<sub>(N,N)</sub>|
 
 4. NormaizedBias.csv
-5. InputGenes.csv
+File Structure:
+|Gene|Bias|
+|----|--------|
+|g<sub>0</sub>| b<sub>0</sub>|
+|g<sub>1</sub>|b<sub>1</sub> |
+|...|....|...|...|...|
+|g<sub>N</sub>|b<sub>N</sub> |
+   
+6. InputGenes.csv
 
    **InterploatedTranscriptomic.csv:** 
 
