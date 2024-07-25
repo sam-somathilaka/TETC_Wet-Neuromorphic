@@ -9,16 +9,25 @@ This project requires the data files in the following list. However due to the f
 **1. InterploatedTranscriptomic.csv :**
 This file includes the interpolated transcriptomic records for * *E. coli* * from the GEO Dataset (accession number GSE65244).
 
-Structure:
-|Time|g<sub>0</sub>|g<sub>1</sub>|...|g<sub>2</sub>|
+File Structure:
+|Time|g<sub>0</sub>|g<sub>1</sub>|...|g<sub>N</sub>|
 |----|-------------|-------------|-------------|---|
 |t<sub>0</sub> | e<sub>(0,0)</sub>    |e<sub>(0,1)</sub>|....|e<sub>(0,N)</sub>|
+|t<sub>1</sub> | e<sub>(1,0)</sub>    |e<sub>(1,1)</sub>|....|e<sub>(1,N)</sub>|
 |...|....|...|...|...|
 |t<sub>T</sub> | e<sub>(T,0)</sub>    |e<sub>(T,1)</sub>|...|e<sub>(T,N)</sub>|
 
 
 **2. EColiGRN.csv :** 
 This file contains the gene-gene interaction information extracted from the **regulondb** database.
+
+File Structure:
+||g<sub>0</sub>|g<sub>1</sub>|...|g<sub>N</sub>|
+|----|-------------|-------------|-------------|---|
+|g<sub>0</sub>| w<sub>(0,0)</sub>    |w<sub>(0,1)</sub>|....|w<sub>(0,N)</sub>|
+|g<sub>1</sub>| w<sub>(1,0)</sub>    |w<sub>(1,1)</sub>|....|w<sub>(1,N)</sub>|
+|...|....|...|...|...|
+|g<sub>N</sub>| w<sub>(N,0)</sub>    |w<sub>(N,1)</sub>|...|w<sub>(N,N)</sub>|
 
 **3. WeightMatrix.csv**
 4. NormaizedBias.csv
