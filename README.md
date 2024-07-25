@@ -10,9 +10,13 @@ This project requires the data files in the following list. However due to the f
 This file includes the interpolated transcriptomic records for * *E. coli* * from the GEO Dataset (accession number GSE65244).
 
 Structure:
-|Time|g<sub>1</sub>|g<sub>2</sub>|g<sub>3</sub>|
-|----|-------------|-------------|-------------|
-|t_1 | t_1.        |.            |ii.          |
+|Time|g<sub>0</sub>|g<sub>1</sub>|g<sub>2</sub>|...|
+|----|-------------|-------------|-------------|---|
+|t<sub>0</sub> | e<sub>(0,0)</sub>    |e<sub>(0,1)</sub>|e<sub>(0,2)</sub>|...|
+|----|-------------|-------------|-------------|---|
+|----|-------------|-------------|-------------|---|
+|t<sub>T</sub> | e<sub>(T,0)</sub>    |e<sub>(T,1)</sub>|e<sub>(T,2)</sub>|...|
+
 
 **2. EColiGRN.csv :** 
 This file contains the gene-gene interaction information extracted from the **regulondb** database.
