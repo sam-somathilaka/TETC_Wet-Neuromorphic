@@ -7,7 +7,7 @@ This study integrates bio-computing with neuromorphic systems by transforming ba
 This project requires the data files in the following list. However due to the file size restriction of Git, the codes are available upon request.
 
 **1. InterploatedTranscriptomic.csv :**
-This file includes the interpolated transcriptomic records for * *E. coli* * from the GEO Dataset (accession number GSE65244).
+This file includes the interpolated transcriptomic records for _E. coli_ from the GEO Dataset (accession number GSE65244).
 
 File Structure:
 |Time|g<sub>0</sub>|g<sub>1</sub>|...|g<sub>N</sub>|
