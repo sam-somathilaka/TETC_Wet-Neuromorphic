@@ -6,9 +6,14 @@ This study integrates bio-computing with neuromorphic systems by transforming ba
 
 This project requires the data files in the following list. However due to the file size restriction of Git, the codes are available upon request.
 
-1. WeightMatrix.csv
-2. NormaizedBias.csv
-3. InputGenes.csv
+**1. InterploatedTranscriptomic.csv**
+This file includes the interpolated transcriptomic records for * *E. coli* * from the GEO Dataset (accession number GSE65244).
+2. EColiGRN.csv
+3. WeightMatrix.csv
+4. NormaizedBias.csv
+5. InputGenes.csv
+
+   **InterploatedTranscriptomic.csv:** 
 
 ## Weight Extraction
 
