@@ -63,13 +63,17 @@ File Structure:
 
 This analysis requires multiple scripts. However, we have only uploaded the main scripts to give the reader a comprehensive idea about the model. Description of each file is given below.
 
-**1. Digit.py:** 
+**1. Digit.py:** This file contain the digit shapes in binaries.
 
--This file contain the digit shapes in binaries.
+**2. GenerateOutputGEs_classification.py:** This script covers the first three steps of the application-specific sub-GRNN search algorithm. 
 
-**2. GenerateOutputGEs_classification.py:** 
+**3. FullVarAnalysis.py:** Atep 4 of the search algorithm is perfomed in this script.
 
--This script first randomly select 16 input genes to map into the 16 pixels of the digit images. Then, it creates input array that mimics a TF-based stimulations based on the image information. Further, the maximum and minimum were extracted from the wet-lab expression data set. Next, using matrix multplication with input array and weight matrix the output gene expression are generated. Further, the process is parallelized for faster computing using Python multiprocessing Pools.
+** 4. FindingCommonGenesBinary.py: ** The fifth step of the search algorithm is executed in this cript.
+
+** 5. ComputeConfussionMatrix.py: ** The suitable threshold level extraction done in Step 6 is perfomed by this script.
+
+** 6. PurtabationAnalysis.py** and **PerturbationDataPlot** The final step using purtabation-based mutual information analysis is performed in these two scripts.
 
 
 ### Application-Specific sub-GRNN extraction
