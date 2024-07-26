@@ -26,13 +26,13 @@ File Structure:
 |----|--------|
 |g<sub>0</sub>| g<sub>1</sub>|
 |g<sub>1</sub>|g<sub>2</sub> |
-|...|....|...|...|...|
+|...|....|
 |g<sub>N-n</sub>|g<sub>N</sub> |
 
 **3. WeightMatrix.csv**
 
 File Structure:
-||g<sub>0</sub>|g<sub>1</sub>|...|g<sub>N</sub>|
+|...|g<sub>0</sub>|g<sub>1</sub>|...|g<sub>N</sub>|
 |----|-------------|-------------|-------------|---|
 |g<sub>0</sub>| w<sub>(0,0)</sub>    |w<sub>(0,1)</sub>|....|w<sub>(0,N)</sub>|
 |g<sub>1</sub>| w<sub>(1,0)</sub>    |w<sub>(1,1)</sub>|....|w<sub>(1,N)</sub>|
@@ -40,6 +40,7 @@ File Structure:
 |g<sub>N</sub>| w<sub>(N,0)</sub>    |w<sub>(N,1)</sub>|...|w<sub>(N,N)</sub>|
 
 4. NormaizedBias.csv
+   
 File Structure:
 |Gene|Bias|
 |----|--------|
@@ -53,6 +54,9 @@ File Structure:
    **InterploatedTranscriptomic.csv:** 
 
 ## Weight Extraction
+
+**SCRIPTNAME** is used to extract the weights as explained in the manuscript. This script requires the following python libraries,
+
 
 ## Regression Analysis
 
