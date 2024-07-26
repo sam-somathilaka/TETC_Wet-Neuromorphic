@@ -57,7 +57,11 @@ File Structure:
 
 ## Regression Analysis
 
+### Simple Regression
 
+### Multiple Regresssion
+
+**1.  
 
 ## Classification Analysis
 
@@ -75,7 +79,3 @@ This analysis requires multiple scripts. However, we have only uploaded the main
 
 **6. PurtabationAnalysis.py** and **PerturbationDataPlot** The final step using purtabation-based mutual information analysis is performed in these two scripts.
 
-
-### Application-Specific sub-GRNN extraction
-
-### Digit Classification use-case
