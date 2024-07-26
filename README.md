@@ -67,7 +67,7 @@ This analysis requires multiple scripts. However, we have only uploaded the main
 
 **2. GenerateOutputGEs_classification.py:** This script covers the first three steps of the application-specific sub-GRNN search algorithm. 
 
-**3. FullVarAnalysis.py:** Atep 4 of the search algorithm is perfomed in this script.
+**3. FullVarAnalysis.py:** Step 4 of the search algorithm is perfomed in this script.
 
 **4. FindingCommonGenesBinary.py:** The fifth step of the search algorithm is executed in this cript.
 
