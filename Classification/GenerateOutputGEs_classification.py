@@ -68,11 +68,12 @@ def GetInputGenes():
     Inputs = WeightMatrixDF.index.tolist()
 
     #common genes between EffectorGeneList and Inputs
-    CommonGenes = list(set(EffectorGeneList) & set(Inputs))
+    CommonGenes = list(set(EffectorGeneList) & set(HighestOccuringList))
 
     # np.random.seed(seed)
     InputGenes = np.random.choice(CommonGenes, 16, replace=False)
     return InputGenes
+
 
 def GenerateInputCocktail(FullGeneList, InGeneList, Image, MinCons):
     InterpolatedData = pd.read_csv('../../Data/InterpolateData.csv', header=0, index_col=0)
