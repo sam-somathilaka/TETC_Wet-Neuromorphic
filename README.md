@@ -49,9 +49,6 @@ File Structure:
 |...|....|...|...|...|
 |g<sub>N</sub>|b<sub>N</sub> |
    
-6. InputGenes.csv
-
-   **InterploatedTranscriptomic.csv:** 
 
 ## Weight Extraction
 
@@ -63,6 +60,11 @@ File Structure:
 
 
 ## Classification Analysis
+
+This analysis requires multiple scripts. However, we have only uploaded the main scripts to give the reader a comprehensive idea about the model. Description of each file is given below.
+**1. Digit:** This file contain the digit shapes in binaries.
+**2. GenerateOutputGEs_classification:** This script first randomly select 16 input genes to map into the 16 pixels of the digit images. Then, it creates input array that mimics a TF-based stimulations based on the image information. Further, the maximum and minimum were extracted from the wet-lab expression data set. Next, using matrix multplication with input array and weight matrix the output gene expression are generated. Further, the process is parallelized for faster computing using Python multiprocessing Pools.
+
 
 ### Application-Specific sub-GRNN extraction
 
