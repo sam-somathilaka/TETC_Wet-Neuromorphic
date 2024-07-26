@@ -69,11 +69,11 @@ This analysis requires multiple scripts. However, we have only uploaded the main
 
 **3. FullVarAnalysis.py:** Atep 4 of the search algorithm is perfomed in this script.
 
-** 4. FindingCommonGenesBinary.py: ** The fifth step of the search algorithm is executed in this cript.
+**4. FindingCommonGenesBinary.py:** The fifth step of the search algorithm is executed in this cript.
 
-** 5. ComputeConfussionMatrix.py: ** The suitable threshold level extraction done in Step 6 is perfomed by this script.
+**5. ComputeConfussionMatrix.py:** The suitable threshold level extraction done in Step 6 is perfomed by this script.
 
-** 6. PurtabationAnalysis.py** and **PerturbationDataPlot** The final step using purtabation-based mutual information analysis is performed in these two scripts.
+**6. PurtabationAnalysis.py** and **PerturbationDataPlot** The final step using purtabation-based mutual information analysis is performed in these two scripts.
 
 
 ### Application-Specific sub-GRNN extraction
