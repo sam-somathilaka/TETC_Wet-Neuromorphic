@@ -56,10 +56,12 @@ File Structure:
 
 
 ## Regression Analysis
-**1. RegressionDataGenerate:** This script stimulate the gene perceptron *b3067* with varing TF concentrations and computed the gene expression output of the GRNN. This result is used in the following two regression tasks to extract variety of mathematical curves.
+
+**RegressionDataGenerate.py:** This script stimulate the gene perceptron *b3067* with varing TF concentrations and computed the gene expression output of the GRNN. This result is used in the following two regression tasks to extract variety of mathematical curves.
 
 ### Simple Regression
 
+**1. SimpleRegressionFullAnalysis.py** Utilizing the generate gene expression levels with the **RegressionDataGenerate.py**, this script extract genes with various simple regression curves.
 
 
 ### Multiple Regresssion
