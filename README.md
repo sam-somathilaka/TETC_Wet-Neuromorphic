@@ -52,7 +52,10 @@ File Structure:
 
 ## Weight Extraction
 
-**SCRIPTNAME** is used to extract the weights as explained in the manuscript. This script requires the following python libraries,
+**Parallelized_EcoliWeighingWithBiasTemporalNormalized.py** is used to extract the weights as explained in the manuscript. This script requires the following key python libraries,
+
+1. Pool from multiprocessing
+2. jit from numba
 
 
 ## Regression Analysis
