@@ -68,6 +68,8 @@ File Structure:
 
 **1. MultipleRegressionDataGenerate.py:** This script stimulate the gene perceptrons *b3067* and *b3357* similarly to the script **RegressionDataGenerate.py**. This, in turn, compute the gene expression output of the GRNN that is used in the following script to extract variety of mathematical curves.
 
+**2. MultiNonRegressionRSSCalculate.py:** Using the expression data generated, this script calculates the RSS values for various cur
+
 ## Classification Analysis
 
 This analysis requires multiple scripts. However, we have only uploaded the main scripts to give the reader a comprehensive idea about the model. Description of each file is given below.
